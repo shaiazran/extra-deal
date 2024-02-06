@@ -2,7 +2,7 @@
 /*
 Plugin Name: extraDeal
 Description: A plugin to add a second product for free on the product page.
-Version: 1.4
+Version: 1.5
 Author: Your Name
 */
 
