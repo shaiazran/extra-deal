@@ -1,0 +1,72 @@
+/* Admin Page Container */
+.wrap {
+    max-width: 100%; /* Maximum width of 100% of the viewport */
+    padding: 20px;
+    background: #f4f7f6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Allows for horizontal scrolling if needed */
+}
+
+/* Spacing and Divider */
+.wrap > h1, .wrap > h2 {
+    color: #2c3e50;
+}
+
+.wrap > h2.nav-tab-wrapper {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Search Bar */
+#product-search {
+    width: 100%;
+    max-width: 750px; /* Limit the width of the search bar */
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+/* Add Product Button */
+#add-product-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Space between the search bar and button */
+}
+
+/* Product Table */
+#selected-products {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#selected-products th, #selected-products td {
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    text-align: left;
+}
+
+#selected-products th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrap {
+        padding: 10px;
+    }
+
+    #product-search, #add-product-btn {
+        width: 100%;
+    }
+}
